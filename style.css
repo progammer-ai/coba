@@ -23,7 +23,7 @@
 }
 .landingpage{
    background-image: url("images.jpg");
-    height: 97vh;
+    height: 99vh;
   
     background-position:center bottom;
     background-size: cover;
@@ -36,7 +36,7 @@
     left: 0;
     z-index: 0;
     width: 100vw;
-    height:97vh;
+    height:99vh;
     background: linear-gradient(to top, rgba(10, 67, 154, 0.6), rgba(10, 67, 154, 0.3), transparent);
 
 }
