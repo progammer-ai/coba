@@ -155,7 +155,7 @@ background: linear-gradient(to top, rgba(10, 67, 154, 0.6), rgba(10, 67, 154, 0.
   
 }
 .gambar2::before{
-    content: "\a sekolahcalon pemimpin bangsa \a sekolah terbaik di bojonegoro";
+    content: "\a sekolah calon pemimpin bangsa \a sekolah terbaik di bojonegoro";
     color: black;
     display: flex;
     justify-content: left;
@@ -169,7 +169,7 @@ background: linear-gradient(to top, rgba(10, 67, 154, 0.6), rgba(10, 67, 154, 0.
     font-size: 5vmin;
     white-space: pre-line;
     padding-left: 8vw;
-
+    
    
 
 }
