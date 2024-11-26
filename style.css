@@ -27,6 +27,7 @@
   
     background-position:center bottom;
     background-size: cover;
+    padding-bottom: 1vh;
     
 }
 .landingpage::before{
@@ -38,7 +39,7 @@
     width: 100vw;
     height:100vh;
     background: linear-gradient(to top, rgba(10, 67, 154, 0.6), rgba(10, 67, 154, 0.3), transparent);
-
+    padding-bottom: 1vh;
 }
 
 
