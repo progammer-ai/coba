@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:aliceblue;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3vmin;
+   
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1vw;
+    list-style: none;
+    text-decoration: none;
+}
+.landingpage{
+   background-image: url("images.jpg");
+    height: 100vh;
+  
+    background-position:center bottom;
+    background-size: cover;
+    
+}
+.landingpage::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(to top, rgba(10, 67, 154, 0.6), rgba(10, 67, 154, 0.3), transparent);
+
+}
+
+
+.leftcontainer{
+    display: grid;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+    height: 90vh;
+    
+
+}
+.selamat{
+    font-weight: 500;
+    font-size: 6vmin;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+.sekolah{
+    font-weight: 800;
+    font-size: 8vmin;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+    z-index: 1;
+}
+.logo{
+    padding-left: 6vw;
+    padding-top: 1vh;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+.menu{
+    padding-right: 4vw;
+    padding-top: 1vh;
+}
+
+.kotak{
+    float: right;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20vh;
+    border: 1px solid red;
+    height: 20vh;
+    width: 50vw;
+    border-top-left-radius:15vh;
+    border-bottom-left-radius: 15vh;
+    padding: 2vmin;
+    background-color: #1a6db3;
+}
+.font,.font2{
+    color: rgb(0, 0, 0);
+    font-size: 1vmax;
+}
+.apa{
+    height: 70vh;
+    background-color: #1a6db3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    z-index: -4;
+}
+.bungkus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    border: 1px solid red;
+    height: 50vh;
+ 
+    background-image: url("sekolah.png");
+    width: 50vw;
+    background-size: cover;
+    z-index: 1;
+
+}.bungkus2::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+z-index: 0;
+width: 100%;
+height:50vh;
+background: linear-gradient(to top, rgba(10, 67, 154, 0.6), rgba(10, 67, 154, 0.3), transparent);
+}
+.putih{
+    background-color: #1a6db3;
+    height: 50vh;
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: -3;
+}
+
+.gambar2{
+    background-image: url("sekolah.png");
+    height: 40vh;
+    z-index: 6;
+    background-position: center;
+    background-size: cover;
+ 
+  
+}
+.gambar2::before{
+    content: "\a sekolahcalon pemimpin bangsa \a sekolah terbaik di bojonegoro";
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    height: 40vh;
+    background-color: rgba(0, 0, 0,0.5);
+    width: 50vw;
+    color: blue;
+    font-weight: 600;
+    font-size: 5vmin;
+    white-space: pre-line;
+    padding-left: 8vw;
+
+   
+
+}
+.sambutan{
+    height: 60vh;
+    background-color: #1a6db3;/*penting*/
+padding-top: 10vh;}
+
+.bungkus2{
+    height: 60vh;
+    position: relative;
+    padding-top: 10vh;
+}
+
+
+.bungkuskotak{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    align-items: center; /* Menempatkan elemen di tengah secara vertikal */
+     /* Optional, untuk memberi jarak antar elemen */
+   /* Tinggi container untuk menutupi layar penuh */
+    background-color: #1a6db3;
+    gap: 10px;
+    font-size: 50px;
+    border: 1px solid red;
+    padding: 1vmin;
+  
+    
+    
+    
+  }
+  .kotak1,.kotak2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    align-items: center;
+    gap: 10px;
+    border: 1px solid red;
+   
+  }
+  .kotaka,.kotakb,.kotakc,.kotakd{
+  
+    flex-wrap: wrap;
+    justify-content: center; /* Menempatkan elemen di tengah secara horizontal */
+    align-items: center;
+    border: 1px solid red;
+    
+  }
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    background-color:  #1a6db3;
+}
+.card{
+    width:40vw ;
+    background-color: rgb(24, 24, 24);
+    border-radius:8px ;
+    overflow: hidden;
+    box-shadow:0px 2px 4px rgb(0,0,0,0.2) ;
+    margin: 2vmin;
+}
+
+
+.card-content{
+    padding: 1vmin;
+}
+.card-content h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn{
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: aquamarine;
+  text-decoration: none;
+  border: 4px;
+  margin-top: 10px;
+  color: black;
+}
+.des {
+    text-align: center; /* Menyelaraskan teks di tengah */
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 8px; /* Membuat sudut membulat */
+    
+   /* Membuat elemen berada di tengah secara horizontal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #000000; /* Memberikan efek bayangan */
+  }
+  
+  .des .font-size:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00274d; /* Warna biru tua */
+    margin-bottom: 10px;
+  }
+  
+  .des .font-size:last-child {
+    font-size: 18px;
+    color: #555555; /* Warna abu-abu */
+    line-height: 1.6; /* Spasi antar baris */
+  }
+ 
+
+
+
+.slider {
+    white-space: nowrap;
+    font-size: medium;
+    overflow: hidden;
+    width: 80%; /* Sesuaikan dengan kebutuhan */
+    position: relative;
+}
+
+.wrapslider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+
+/* Tombol untuk navigasi */
+
+.button-left {
+    left: 10px;
+}
+
+.button-right {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* ini slider*/
+.slider{
+    width: 99vw;
+    max-width: 99vw;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 60vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 99vw;
+    max-width: 99vw;
+    height: 80vh;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width:10vmin;
+    height: 10vmin;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 80vh;
+    }
+}
